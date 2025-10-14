@@ -14,7 +14,7 @@ Partie 1:
       - serveur d'impression, il va gerer les impressions réseau
 
 3. Qu'est ce qu'un systeme d'exploitation? 
-  Un système d’exploitation est un logiciel principal qui fait le lien entre le matériel et les applications.
+  un système d’exploitation est un logiciel principal qui fait le lien entre le matériel et les applications.
     il va gerer: 
       - les ressources materielles ( les processeur, mémoire, disque) 
       - les utilisateurs 
@@ -25,7 +25,7 @@ Partie 1:
       - linux 
 
 4. Dans quelle mesure l'organisation TeaRoom gere correctement le périphérique bidirectionnel indiqué dans le diagramme FigJamBoard? 
-  Sans le diagramme exact, on peut supposer que la TeaRoom gère partiellement bien le périphérique bidirectionnel si:
+  sans le diagramme exact, on peut supposer que la TeaRoom gère partiellement bien le périphérique bidirectionnel si:
     - elle est inventoriée
     - configurée dans le reseau
     - et suivie en cas de panne 
@@ -51,7 +51,7 @@ Partie 1:
       si une entreprise a 10 licences Microsoft Office, elle ne doit pas l’installer sur 20 ordinateurs.
 
 8. Qu'est ce que le “shadow IT“?
-  Le shadow IT désigne l’utilisation de logiciels, applications ou services non autorisés par le service informatique.
+  le shadow IT désigne l’utilisation de logiciels, applications ou services non autorisés par le service informatique.
     exemple: 
       - un employé qui utilise Google Drive au lieu du serveur interne,
       - ou installe un logiciel sans validation.
@@ -60,5 +60,23 @@ Partie 1:
 
 
 Partie 2: 
+1. Quels sont les trois actifs matériels de l'ientreprise qui sont l'object d'un incident? 
+  d’après la description du diagramme Figma il y'a: 
+    - un poste utilisateur (ordinateur) 
+    - une imprimante reseau 
+    - et un serveur 
+
+2. Définir ce qu'est l'adjectif  objet de l'incident numero 3
+  l'actif de l'incident numero 3 est probablement un serveur car, c'est un element central du reseau qui heberge des données, service ou application utilisés per les employers 
+
+3. Donner sa fonction dans le réseau de l’organisation compte tenu de la panne déclarée
+  pour un serveur il va alors: 
+    - heberger des fichier ou un logiciel métier
+    - sa panne empeche donc l'acces aux données ou il va interrompre un service comme la messagerie ou site internet 
+  sa fonction est don indispansable pour avoir un bon fonctionnement du reseau 
+
+4. Quelles sont les étapes que Francis suit? 
+  selon le diagramme Figma les etapes que francis qui sont role est administrateur systeme et reseau suit est donc: 
+    - detection de
 
   
