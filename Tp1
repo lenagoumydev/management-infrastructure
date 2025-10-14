@@ -77,6 +77,29 @@ Partie 2:
 
 4. Quelles sont les étapes que Francis suit? 
   selon le diagramme Figma les etapes que francis qui sont role est administrateur systeme et reseau suit est donc: 
-    - detection de
+    - detection des incidents 
+    - classification et priorisation
+    - affectation 
+    - diagnostique et resolution
+    - cloture et documentation 
+
+5. qu'est ce que ITIL? 
+  ITIL (Information Technology Infrastructure Library) est un ensemble de bonnes pratiques pour gérer les services informatiques (ITSM).
+  il aide a: 
+    - structurer les processus ( incidents, changements, problemes)
+    - ameliorer la qualite du support 
+    - et garantir la continuite des services informatiques 
+
+6. Votre collegue qui utilise GLPI fait-il partie du helpdesk de son entreprise ? Justifiez votre reponse.
+  oui car GLPI est un outil de helpdesk et de gestion du parc informatique.
+  donc, un collegue qui l’utilise pour creer, suivre et resoudre des tickets d’assistance fait partie du helpdesk, c’est-à-dire du support technique de l’entreprise.
+
+7. Qu'est ce qu'un SLA ?
+  Un SLA (Service Level Agreement) c'est un contrat ou engagement de service entre un fournisseur (interne ou externe) et ses utilisateurs.
+  il permet de definir: 
+    - le niveau de service qui sont attendu ( ex: les delais de reponses, les disponibilite)
+    - les indicateurs de performance, ( ex: les KPI)
+    - et les penalite en cas de non respect
+
 
   
