@@ -1,0 +1,64 @@
+Partie 1: 
+1. Qu'est ce qu'un peripherique? 
+  un peripherique est un equipement materiel connecté a un ordinateur ou un reseaux.
+    exemple: 
+      - peripherique d'entrée: clavier, souris, scanner
+      - peripherique de sortie: écran, imprimante 
+      - peripherique mixte: clé USB, disque dur externe, imprimante multifonction. 
+
+2. Qu'est ce qun serveur? 
+  un serveur c'est un ordinateur ou un logiciel qui founit des services, ressources ou données a d'autres ordinateurs, il sont plus communement appellee “ clients“ sur un reseau 
+    exemple: 
+      - serveur web, il va heberger un site internet 
+      - serveur de fichiers, il va stocker et partager des données 
+      - serveur d'impression, il va gerer les impressions réseau
+
+3. Qu'est ce qu'un systeme d'exploitation? 
+  Un système d’exploitation est un logiciel principal qui fait le lien entre le matériel et les applications.
+    il va gerer: 
+      - les ressources materielles ( les processeur, mémoire, disque) 
+      - les utilisateurs 
+      - l'execution des programes 
+    exemple: 
+      - windows
+      - macOS
+      - linux 
+
+4. Dans quelle mesure l'organisation TeaRoom gere correctement le périphérique bidirectionnel indiqué dans le diagramme FigJamBoard? 
+  Sans le diagramme exact, on peut supposer que la TeaRoom gère partiellement bien le périphérique bidirectionnel si:
+    - elle est inventoriée
+    - configurée dans le reseau
+    - et suivie en cas de panne 
+
+5. Quel est l'interet de faire un inventaire?
+  faire un inventaire informatique permet de: 
+    - connaitre tous les equipements et logiciels du parc
+    - faliciter la maintenance et les mises a jours
+    - anticiper les pannes ou les besoins de remplacement 
+    - et verifier la conformiter des licences logicielles 
+
+6. En quoi consiste une “gestion proactive“?
+  une gestion practive consiste a agir avant que les problemes ne surviennent, par exemple: 
+    - surveiller les performances
+    - mettre a jour regulierement les logiciels 
+    - planifier les sauvgardes
+
+  son objectif est de reduire les incidents et assurer la continuité du service produit
+
+7. Que signifie “ verifier le respect des licenses logicielles“?
+  Cela signifie contrôler que les logiciels utilisés sont légaux et conformes aux licences achetées.
+    Exemple : 
+      si une entreprise a 10 licences Microsoft Office, elle ne doit pas l’installer sur 20 ordinateurs.
+
+8. Qu'est ce que le “shadow IT“?
+  Le shadow IT désigne l’utilisation de logiciels, applications ou services non autorisés par le service informatique.
+    exemple: 
+      - un employé qui utilise Google Drive au lieu du serveur interne,
+      - ou installe un logiciel sans validation.
+  
+  les risques sont alors les fuites de données, failles de sécurité, incompatibilités.
+
+
+Partie 2: 
+
+  
