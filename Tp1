@@ -4,7 +4,7 @@ Partie 1:
     exemple: 
       - peripherique d'entrée: clavier, souris, scanner
       - peripherique de sortie: écran, imprimante 
-      - peripherique mixte: clé USB, disque dur externe, imprimante multifonction. 
+      - peripherique bidirectionnel: clé USB, disque dur externe, imprimante multifonction. 
 
 2. Qu'est ce qun serveur? 
   un serveur c'est un ordinateur ou un logiciel qui founit des services, ressources ou données a d'autres ordinateurs, il sont plus communement appellee “ clients“ sur un reseau 
