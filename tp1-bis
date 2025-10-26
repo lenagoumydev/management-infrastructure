@@ -41,11 +41,31 @@ Partie 2 : Supervision et monitoring
 Partie 3 : Sécurité du parc informatique
 
 1. Quelles sont les mesures prises ( dans le scénario du Figma ) pour sécuriser le parc informatique ?
+  Les mesures de sécurité sont : 
+    - segmentation réseau par VLAN : VLAN (20, 22, 30) pour isoler les services (comptabilité, RH, services)
+    - redondance des routeurs (HSRP) afin d’assurer une haute disponibilité en cas de panne
+    - les passerelles NAT et Internet Gateway qui filtrent le trafic entrant et sortant
+    - chiffrement HTTPS, 
+    - politiques de sécurité navigateur (CSP, X-Frame-Options) qui vont protèger contre les attaques de type clickjacking, phishing et injection de scripts.
+    - les passerelles NAT et Internet Gateway qui filtrent le trafic entrant et sortant jouant le role de pare-feu
+    - gestion des accès selon les rôles
+    - sauvegardes,antivirus et mises à jour régulières
 
 
 Partie 4 : Demandes utilisateur
 
 1. Trouvez dans le scénario Figma la demande utilisateur ?
+  la demande utilisateur dans le figma se trouve a la machine 3, dans le scénario du Figma TeaRoom, on identifie une “Demande utilisateur n°1” envoyée par e-mail depuis le service Direction (Machine n°3, VLAN 20).
+  il s’agit donc d’une demande de création d’un nouveau compte utilisateur dans le système d’information
+
+2. Quel est le cycle de vie d’une demande utilisateur ( voir le cours )
+  le cycle de vie d'une demande utilisateur se trouve au chapitre 12 donc :
+    - Soumission : l’utilisateur ouvre une demande via le portail IT ou par mail.
+    - Validation : certaines demandes nécessitent une approbation hiérarchique.
+    - Traitement : exécution par le support technique.
+    - Livraison : l’utilisateur reçoit le service demandé.
+    - Clôture : la demande est archivée après confirmation de satisfaction.
+  
 
 
 
