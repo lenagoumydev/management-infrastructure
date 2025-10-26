@@ -2,7 +2,7 @@ Partie 1 : Gestion des incidents
 
 1. Quel incident peut concerner le serveur web de l’entreprise sur le diagramme Figma ?
   L'incident concerne la “Azure Virtual Machine “ qui heberge le serveur web “friendly-loans.com“
-    Ce serveur (port 443, HTTPS) peut subir une panne ou une attaque (phishing, clickjacking, et en usurpation le nom de domaine “fiendly-loans.fr”), Cela interrompt donc le service web de l’entreprise, donc l'incident survenu est un probleme de securité 
+    Ce serveur (port 443, HTTPS) il peut subir une panne ou une attaque (phishing, clickjacking, en usurpation le nom de domaine “fiendly-loans.fr”), Cela interrompt donc le service web de l’entreprise, donc l'incident survenu est un probleme de securité 
 
 
 2. Donner la liste des logiciels critiques installées sur le disque ssd du serveur physique auquel avait trait la question précédente ?
