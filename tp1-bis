@@ -2,7 +2,7 @@ Partie 1 : Gestion des incidents
 
 1. Quel incident peut concerner le serveur web de l’entreprise sur le diagramme Figma ?
   L'incident concerne la “Azure Virtual Machine “ qui heberge le serveur web “friendly-loans.com“
-    Ce serveur (port 443, HTTPS) peut subir une panne ou une attaque (phishing, clickjacking, et en usurpation le nom de domaine “fiendly-loans.fr”), Cela interrompt donc le service web de l’entreprise 
+    Ce serveur (port 443, HTTPS) peut subir une panne ou une attaque (phishing, clickjacking, et en usurpation le nom de domaine “fiendly-loans.fr”), Cela interrompt donc le service web de l’entreprise, donc l'incident survenu est un probleme de securité 
 
 
 2. Donner la liste des logiciels critiques installées sur le disque ssd du serveur physique auquel avait trait la question précédente ?
@@ -22,16 +22,20 @@ Partie 1 : Gestion des incidents
 
 5. Quelles seraient les bonnes pratiques ITIL par rapport à la gestion de cet incident ?
   les bonnes pratiques seraient donc: 
-    1- Détection et enregistrement dans GLPI
-    2- Classification et priorisation (incident critique : service web public)
-    3- Diagnostic : vérifier logs, conteneurs, règles NSG, certificat TLS
-    4- Résolution : redémarrage ou restauration du service
-    5- Clôture et documentation dans GLPI
+    1- Détection et enregistrement: l’incident est signalé (par l’utilisateur ou un système de supervision)
+    2- Classification et priorisation: l’incident est catégorisé selon sa gravité (critique, majeur, mineur)
+    3- Affectation : il est assigné à un technicien ou une équipe.
+    4- Diagnostic et résolution : le problème est analysé et corrigé
+    5- Clôture et documentation : l’incident est résolu et archivé avec une description de la solution
 
 
 Partie 2 : Supervision et monitoring
 
 1. Quels sont les outils que vous auriez pu combiner ( voir le cours ) pour faire une supervision réseau et avoir une visualisation des métriques de performance
+  comme outils nous pouvons utiliser: 
+    - GLPI : gestion centralisée des tickets utilisateurs.
+    — OTRS / Freshservice / Jira Service Management : plateformes ITSM complètes.
+    — Zabbix / Nagios : détection automatique des incidents par supervision.
 
 
 Partie 3 : Sécurité du parc informatique
@@ -39,7 +43,9 @@ Partie 3 : Sécurité du parc informatique
 1. Quelles sont les mesures prises ( dans le scénario du Figma ) pour sécuriser le parc informatique ?
 
 
+Partie 4 : Demandes utilisateur
 
+1. Trouvez dans le scénario Figma la demande utilisateur ?
 
 
 
