@@ -2,33 +2,43 @@ Partie 1 : Gestion des incidents
 
 1. Quel incident peut concerner le serveur web de l’entreprise sur le diagramme Figma ?
   L'incident concerne la “Azure Virtual Machine “ qui heberge le serveur web “friendly-loans.com“
-    exemple d'incident 
-      -le service HTTPS qui est au port 443 ne repond plus
-      - le certificat TLS expliré
-      - ou clickjacking depuis un site de phishing “fiendly-loans.fr“ pour l'organisation de Shadow en passant par Sarah mais aussi pour l'organisation de Friendly-loans en passant egalement par Sarah 
+    Ce serveur (port 443, HTTPS) peut subir une panne ou une attaque (phishing, clickjacking, et en usurpation le nom de domaine “fiendly-loans.fr”), Cela interrompt donc le service web de l’entreprise 
 
 
 2. Donner la liste des logiciels critiques installées sur le disque ssd du serveur physique auquel avait trait la question précédente ?
   Sur le disque ssd du serveur on y retrouve des logiciels critiques sur le serveur web Azure et les Virtual Machine interne comme Proxmox sur shadows tel que: 
-    - le serveur web 
-    - back-end: intra-shadows-backend
-    - front-end: intra-shadows-frontend
+    - le serveur web (https)
+    - back-end: intra-shadows-backend ( conteneur)
+    - front-end: intra-shadows-frontend ( conteneur)
     - base de données 
-    - TLS pour https 
+    - des outils de gestion et de supervision (GLPI, OCS/FusionInventory s’ils sont installés)
 
 3. Quelle est la relation entre GLPI et cet incident ?
-  GLPI sert à enregistrer et suivre le ticket d’incident : 
-    quand la Azure VM (serveur web) subit une panne ou une alerte de sécurité (clickjacking, compromission), le personnel crée ou reçoit un ticket dans GLPI pour tracer la résolution et garder l’historique.
+  GLPI, déployé sur la Virtual Machine interne du réseau Shadows (VLAN 30 – SERVICES), sert à enregistrer et suivre le ticket d’incident lié à la panne du serveur web
+    quand la Azure Virtual Machine (serveur web) subit une panne ou une alerte de sécurité (clickjacking, compromission), le personnel crée ou reçoit un ticket dans GLPI pour tracer la résolution et garder l’historique
 
 4. Quel logiciel peut jouer le role d’intermédiaire entre GLPI et l’incident ?
   un agent d'inventaire comme FusionInventory ou OCS Inventory installé sur la Azure Virtual Machine peut detecter des anomalies et remonter des evenement vers GLPI, on peut donc citer FusionInventory comme intermediaire logique 
 
 5. Quelles seraient les bonnes pratiques ITIL par rapport à la gestion de cet incident ?
   les bonnes pratiques seraient donc: 
-    1- 
+    1- Détection et enregistrement dans GLPI
+    2- Classification et priorisation (incident critique : service web public)
+    3- Diagnostic : vérifier logs, conteneurs, règles NSG, certificat TLS
+    4- Résolution : redémarrage ou restauration du service
+    5- Clôture et documentation dans GLPI
 
 
 Partie 2 : Supervision et monitoring
+
+1. Quels sont les outils que vous auriez pu combiner ( voir le cours ) pour faire une supervision réseau et avoir une visualisation des métriques de performance
+
+
+Partie 3 : Sécurité du parc informatique
+
+1. Quelles sont les mesures prises ( dans le scénario du Figma ) pour sécuriser le parc informatique ?
+
+
 
 
 
